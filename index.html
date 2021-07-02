@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Raleway:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Tienda Virtual</title>
+</head>
+<body>
+
+  <header class="header">
+    <h3 class="title text-capitalize text-center pt-2">tienda <span>muebles</span></h3>
+
+    <!-- navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-faded">
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <a href="#" class="navbar-brand d-sm-none">Menu</a>
+
+      <!-- Menu -->
+      <div id="main-menu" class="collapse navbar-collapse">
+        <nav class="nav container flex-column flex-lg-row">
+          <a href="#" class="nav-link">Inicio</a>
+          <a href="#" class="nav-link">Nosotros</a>
+          <a href="#" class="nav-link">Producctos</a>
+          <a href="#" class="nav-link">Galeria</a>
+          <a href="#" class="nav-link">Blog</a>
+          <a href="#" class="nav-link">Contacto</a>
+        </nav>
+      </div>
+    </nav>
+  </header>
+
+
+  <div class="carousels container mt-4">
+    <div class="row justify-content-between align-items-center">
+      <div class="col-md-6 col-lg-6 slide-1">
+        <div id="slide1" class="carousel slide" role="listbox" data-ride="carousel">
+
+          <ol class="carousel-indicators">
+            <li data-target="#slide1" data-slide-to="0" class="active"></li>
+            <li data-target="#slide1" data-slide-to="1" class=""></li>
+            <li data-target="#slide1" data-slide-to="2" class=""></li>
+            <li data-target="#slide1" data-slide-to="3" class=""></li>
+          </ol>
+          
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/producto5.jpg" class="img-fluid">
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/producto2.jpg" class="img-fluid">
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/producto3.jpg" class="img-fluid">
+            </div>
+
+            <div class="carousel-item">
+              <img src="img/producto4.jpg" class="img-fluid">
+            </div>
+          </div><!--end carousel-inner-->
+
+          <!-- left arrow -->
+          <a href="#slide1" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          </a>
+          <!-- right arrow -->
+          <a href="#slide1" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          </a>
+        </div><!--end carousel-->
+      </div><!--end col-md-8-->
+
+
+      <!-- slide 2 -->
+      <div class="col-md-6 col-lg-4 slide-2 mt-2 mt-md-0">
+        <div id="slide2" class="carousel slide" role="listbox" data-ride="carousel">
+          <div class="carousel-inner bg-primary p-4 text-light">
+            <div class="carousel-item active">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id possimus error repudiandae quae deserunt omnis quia consequuntur excepturi quis veniam aperiam architecto explicabo officia libero quaerat repellat, sunt veritatis. Error?
+                <span  class="d-block">Casa 1</span>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id possimus error repudiandae quae deserunt omnis quia consequuntur excepturi quis veniam aperiam architecto explicabo officia libero quaerat repellat, sunt veritatis. Error?
+                <span class="d-block">Casa 2</span>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id possimus error repudiandae quae deserunt omnis quia consequuntur excepturi quis veniam aperiam architecto explicabo officia libero quaerat repellat, sunt veritatis. Error?
+                <span class="d-block">Casa 3</span>
+              </p>
+            </div>
+
+            <div class="carousel-item">
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id possimus error repudiandae quae deserunt omnis quia consequuntur excepturi quis veniam aperiam architecto explicabo officia libero quaerat repellat, sunt veritatis. Error?
+                <span class="d-block">Casa 4</span>
+              </p>
+            </div>
+          </div><!--end catousel-inner-->
+        </div><!--end slide 2-->
+      </div><!--end col-md-4-->
+    </div><!--end row-->
+  </div><!--end container-->
+
+
+  <!-- Categorias -->
+  <div class="categories container mt-5">
+    <h3 class="title py-4 text-center">Categorias</h3>
+    <div class="row justify-content-center">
+      <div class="col-8 col-lg-4 my-1">
+        <img src="img/categoria1.jpg" class="img-fluid">
+        <p>Escritorio</p>
+      </div>
+
+      <div class="col-8 col-lg-4 my-1">
+        <img src="img/categoria2.jpg" class="img-fluid">
+        <p>Hogar</p>
+      </div>
+
+      <div class="col-8 col-lg-4 my-1">
+        <img src="img/categoria3.jpg" class="img-fluid">
+        <p>Cocina</p>
+      </div>
+    </div><!-- row -->
+  </div><!-- Categories -->
+
+
+  <!--About us  -->
+  <div class="about-us container-fluid mt-5">
+    <div class="row bg-primary text-light align-items-center">
+      <div class="col-md-6 bg-image image-us"></div>
+
+      <div class="col-md-6">
+        <div class="content mt-5 mt-md-0">
+          <h3 class="text-capitalize text-center">sobre nosotros</h3>
+          <p>
+            Sobre Nosotros
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quae et! Excepturi, molestias ut tenetur eum consequatur, aspernatur officia ipsam voluptates ex
+          </p>
+          <p>
+            Sobre Nosotros
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, quae et! Excepturi, molestias ut tenetur eum consequatur, aspernatur officia ipsam voluptates ex
+            
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi quas exercitationem iure esse, molestias fugit velit? Aspernatur veritatis excepturi atque alias porro maiores illum nihil dolor corporis
+          </p>
+        </div>
+      </div><!-- col-md-6 -->
+    </div><!--en row-->
+  </div><!--end about-us-->
+
+
+  <!-- Products -->
+  <div class="products container mt-5">
+    <div class="row bg-primary no-gutters align-items-center">
+      <div class="col-lg-8">
+        <img src="img/producto1.jpg" class="img-fluid">
+      </div>
+
+      <div class="col-lg-4">
+        <div class="content p-4 text-light text-center">
+          <h3>titulo 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non doloribus suscipit sed. Voluptatibus, debitis. Laboriosam molestias odit commodi debitis non necessitatibus ut nemo, adipisci, facere</p>
+          <p class="price">#1.000.0000</p>
+          <a href="#" class="btn btn-success btn-lg text-uppercase">agregar al carrito</a>
+        </div>
+      </div><!--end col-lg-4-->      
+    </div><!--end row-->
+
+
+    <!-- products for 2 items -->
+    <div class="row mt-2">
+      <div class="col-md-6 my-2">
+        <img src="img/producto2.jpg" class="img-fluid">
+        <div class="content bg-primary p-4 text-light text-center">
+          <h3>titulo 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non doloribus suscipit sed. Voluptatibus, debitis. Laboriosam molestias odit commodi debitis non necessitatibus ut nemo, adipisci, facere</p>
+          <p class="price">#1.000.0000</p>
+          <a href="#" class="btn btn-success btn-lg text-uppercase">agregar al carrito</a>
+        </div>
+      </div><!--end col-lg-4-->
+
+      <div class="col-md-6 my-2">
+        <img src="img/producto3.jpg" class="img-fluid">
+        <div class="content bg-primary p-4 text-light text-center">
+          <h3>titulo 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non doloribus suscipit sed. Voluptatibus, debitis. Laboriosam molestias odit commodi debitis non necessitatibus ut nemo, adipisci, facere</p>
+          <p class="price">#1.000.0000</p>
+          <a href="#" class="btn btn-success btn-lg text-uppercase">agregar al carrito</a>
+        </div>
+      </div><!--end col-lg-4-->
+    </div><!--end row m-2 items-->
+
+
+    <!-- products for 3 items -->
+    <div class="row mt-2">
+      <div class="col-md-4 my-2 items-3">
+        <img src="img/producto4.jpg" class="img-fluid">
+        <div class="content bg-primary p-4 text-light text-center">
+          <h3>titulo 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non doloribus suscipit sed. Voluptatibus, debitis. Laboriosam molestias odit commodi debitis non necessitatibus ut nemo, adipisci, facere</p>
+          <p class="price">#1.000.0000</p>
+          <a href="#" class="btn btn-success btn-lg text-uppercase">agregar al carrito</a>
+        </div>
+      </div><!--end col-lg-4-->
+
+      <div class="col-md-4 my-2 items-3">
+        <img src="img/producto5.jpg" class="img-fluid">
+        <div class="content bg-primary p-4 text-light text-center">
+          <h3>titulo 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non doloribus suscipit sed. Voluptatibus, debitis. Laboriosam molestias odit commodi debitis non necessitatibus ut nemo, adipisci, facere</p>
+          <p class="price">#1.000.0000</p>
+          <a href="#" class="btn btn-success btn-lg text-uppercase">agregar al carrito</a>
+        </div>
+      </div><!--end col-lg-4-->
+
+      <div class="col-md-4 my-2 items-3">
+        <img src="img/producto6.jpg" class="img-fluid">
+        <div class="content bg-primary p-4 text-light text-center">
+          <h3>titulo 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel non doloribus suscipit sed. Voluptatibus, debitis. Laboriosam molestias odit commodi debitis non necessitatibus ut nemo, adipisci, facere</p>
+          <p class="price">#1.000.0000</p>
+          <a href="#" class="btn btn-success btn-lg text-uppercase">agregar al carrito</a>
+        </div>
+      </div><!--end col-lg-4-->
+    </div><!--end row-2 items-->
+  </div><!--end products-->
+
+
+  <!-- Footer -->
+  <footer class="footer mt-5">
+    <div class="container">
+      <div class="row text-center text-md-left text-light">
+        <div class="col-md-3 my-3">
+          <h3>widget 1</h3>
+          <nav class="footer-menu">
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Carreras</a>
+            <a href="#" class="nav-link">Prensa y noticiero</a>
+            <a href="#" class="nav-link">Politica de privacidad</a>
+            <a href="#" class="nav-link">Seguridad</a>
+          </nav>
+        </div>
+        <div class="col-md-3 my-3">
+          <h3>widget 2</h3>
+          <nav class="footer-menu">
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Carreras</a>
+            <a href="#" class="nav-link">Prensa y noticiero</a>
+            <a href="#" class="nav-link">Politica de privacidad</a>
+            <a href="#" class="nav-link">Seguridad</a>
+          </nav>
+        </div>
+        <div class="col-md-3 my-3">
+          <h3>widget 3</h3>
+          <nav class="footer-menu">
+            <a href="#" class="nav-link">Inicio</a>
+            <a href="#" class="nav-link">Carreras</a>
+            <a href="#" class="nav-link">Prensa y noticiero</a>
+            <a href="#" class="nav-link">Politica de privacidad</a>
+            <a href="#" class="nav-link">Seguridad</a>
+          </nav>
+        </div>
+
+        <div class="col-md-3 socials">
+          <nav class="nav list-unstyled h-100 flex-md-column justify-content-center align-items-start ">
+            <li>
+              <a href="http://facebook.com" target="_blank">
+                <i class="fab fa-facebook-square"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://twitter.com" target="_blank">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://instagram.com" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://youtube.com" target="_blank">
+                <i class="fab fa-youtube"></i>
+              </a>
+            </li>
+
+            <li>
+              <a href="http://pinterest.com" target="_blank">
+                <i class="fab fa-pinterest"></i>
+              </a>
+            </li>
+          </nav>
+        </div><!-- socials -->
+      </div><!-- row -->
+    </div><!-- container -->
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+:root {
+    --fuentePrimaria: 'Playfair Display', serif;
+    --fuenteSecundaria: 'Raleway', sans-serif;
+    --primario: #037bc0;
+    --secundario: #8cbc00;
+}
+
+/* Globals */
+.title {
+    font-family: var(--fuentePrimaria);
+    font-size: 2.6rem;
+}
+.bg-image {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+p {
+    line-height: 2.4rem;
+}
+
+/* HEADER */ 
+.header h3 span {
+    color: var(--primario)!important;
+}
+/* nav */
+.header .nav {
+    border-bottom: 1px solid rgb(218, 218, 218);
+}
+.header .nav-link {
+    color: black!important;    
+}
+.header .nav-link:hover {
+    background-color: var(--primario)!important;
+    color: white!important;
+    border-radius: 7px;
+    transition: all .3s ease-in-out;
+}
+
+
+/* CAROUSELS */
+.carousels .slide-2 .carousel-item p {
+    font-size: 1..2rem;
+    padding: 2rem 0 0 2rem;
+}
+.carousels .slide-2 .carousel-item p::before {
+    content: open-quote;
+    font-size: 4rem;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.carousels .slide-2 .carousel-item span {
+    text-align: right;
+    margin: 1.2rem 0 0 0;
+    font-weight: 900;
+}
+
+/* CATEGORIES */
+.categories img {
+    transition: transform .3s ease-in-out;
+}
+.categories img:hover {
+    transform: scale(1.1) rotate(6deg);
+}
+.categories p {
+    font-family: var(--fuenteSecundaria);
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 1rem 0 0 0;
+}
+
+/* ABOUT-US */
+.about-us .image-us {
+    height: 37rem;
+}
+.about-us .image-us {
+    background-image: url(../img/nosotros.jpg);
+}
+.about-us .content h3 {
+    font-size: 2.6rem;
+    font-weight: 900;
+}
+
+
+/* PRODUCTS */
+.products .content p {
+    line-height: 2rem;
+}
+
+
+/* FOOTER */
+.footer {
+    background-color: rgb(68, 67, 67);
+}
+.footer .footer-menu a {
+    color: white!important;
+}
+/* navigation socials */
+.footer .socials li a{
+    font-size: 1.9rem;
+    padding: .2rem;
+    color: rgb(172, 171, 171);
+}
+.footer .socials li a[href*='facebook.com']:hover {
+    background-color: rgb(8, 107, 255);
+    color: white!important;
+}
+.footer .socials li a[href*='twitter.com']:hover {
+    background-color: rgb(0, 153, 255);
+    color: white!important;
+}
+.footer .socials li a[href*='instagram.com']:hover {
+    background: linear-gradient(to bottom, blue, rgb(223, 0, 223), red, orange, rgb(219, 219, 6));
+    color: white!important;
+}
+.footer .socials li a[href*='youtube.com']:hover {
+    background-color: red;
+    color: wheat!important;
+}
+.footer .socials li a[href*='pinterest.com']:hover {
+    background-color: red;
+    color: white!important;
+}
